@@ -57,6 +57,7 @@ Documentation at [hexdocs.pm/logs](https://hexdocs.pm/logs)
 TODO:
 
 read: https://hexdocs.pm/logger/Logger.html#content
+Then: https://medium.com/@svetob/sending-elixir-logs-to-logstash-as-json-1396605f9b7b
 
 ## Development
 
@@ -79,6 +80,7 @@ that:
 + [ ] Spawns a process to async send logs 
 to a log storing/visualising service like 
 [Logstash](https://www.elastic.co/logstash/)
+
 
 Looks like this is a good starting point: 
 https://hex.pm/packages/logstash_logger_formatter
