@@ -5,7 +5,7 @@ defmodule Logs.MixProject do
     [
       app: :logs,
       description: "Basic logging to simplify our lives.",
-      version: "1.0.0",
+      version: "0.0.1",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -19,7 +19,8 @@ defmodule Logs.MixProject do
         coveralls: :test,
         "coveralls.json": :test,
         "coveralls.html": :test,
-        t: :test
+        t: :test,
+        d: :test
       ]
     ]
   end
@@ -59,7 +60,8 @@ defmodule Logs.MixProject do
   defp aliases do
     [
       c: ["coveralls.html"],
-      t: ["test"]
+      t: ["test"],
+      d: ["deps.get", "c"]
     ]
   end
 end
