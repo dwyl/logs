@@ -39,7 +39,7 @@ defmodule Logs.MixProject do
   defp deps do
     [
       # Tracking test coverage
-      {:excoveralls, "~> 0.16.0", only: [:test, :dev]},
+      {:excoveralls, "~> 0.17.0", only: [:test, :dev]},
 
       # Documentation
       {:ex_doc, "~> 0.30.1", only: :dev}
