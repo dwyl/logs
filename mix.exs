@@ -42,7 +42,7 @@ defmodule Logs.MixProject do
       {:excoveralls, "~> 0.18.0", only: [:test, :dev]},
 
       # Documentation
-      {:ex_doc, "~> 0.37.1", only: :dev}
+      {:ex_doc, "~> 0.38.1", only: :dev}
     ]
   end
 
